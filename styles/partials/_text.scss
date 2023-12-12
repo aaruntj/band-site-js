@@ -1,0 +1,61 @@
+// THIS PAGE SHOULD NOW BE DEFUNCT
+
+/*
+@use "./mixins" as *;
+
+.text{
+    &__page-header{
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 700;
+        @include tablet{
+            font-size: 60px;
+            line-height:68px;
+        }
+    }
+    &__section-header{
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 700;
+        @include tablet{
+            font-size: 36px;
+            line-height:44px;
+        }
+    }
+    &__subheader{
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 600;
+        @include tablet{
+            font-size: 24px;
+            line-height:32px;
+        }
+    }
+    &__body-copy{
+        font-size: 13px;
+        line-height: 18px;
+        font-weight: 400;
+        @include tablet{
+            font-size: 14px;
+            line-height:22px;
+        }
+    }
+    &__footer-copy{
+        font-size: 13px;
+        line-height: 18px;
+        font-weight: 400;
+        @include tablet{
+            font-size: 14px;
+            line-height:20px;
+        }
+    }
+    &__labels-buttons{
+        font-size: 10px;
+        line-height: 20px;
+        font-weight: 700;
+        @include tablet{
+            font-size: 12px;
+        }
+    }
+}
+*/

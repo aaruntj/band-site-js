@@ -1,0 +1,113 @@
+@use "../styles/partials/mixins" as *;
+@use "../styles/partials/colours" as *;
+@use "../styles/partials/typography" as *;
+// @use "../styles/partials/text" as *;
+@use "../styles/partials/global" as *;
+
+.hero{
+    background-image: linear-gradient(rgba(50,50,50,0.5),rgba(50,50,50,0.5)),url(../assets/images/hero-shows.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    @include desktop{
+        flex-direction: row;
+        align-items: center;
+    }
+    &__text-container{
+        color: $white;
+    }
+    &__pre-heading{
+        padding-top: 0.25rem;
+        padding-bottom: 0.5rem;
+        font-size: 0.875rem;
+        line-height: 1.375rem;
+        font-weight: 600;
+        @include tablet{
+            font-size: 1.5rem;
+            line-height: 2rem;
+        }
+    }
+    &__heading{
+        color:$white;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        font-weight: 700;
+        @include tablet{
+            font-size: 3.75rem;
+            line-height: 4.25rem;
+        }
+    }
+    &__music{
+        
+    }
+}
+
+.shows{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    &__heading{
+        font-size: 1.5rem;
+        line-height: 2rem;
+        font-weight: 700;
+        @include tablet{
+            font-size: 2.25rem;
+            line-height:2.75;
+        }
+    }
+    &__show{
+        padding-bottom: 2rem;
+    }
+    &__subheading{
+        color: $silver;
+        font-size: 0.813rem;
+        line-height: 1.125rem;
+        font-weight: 600;
+        @include tablet{
+            font-size: 0.875rem;
+            line-height: 1.375rem;
+        } 
+    }
+    &__date{
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        font-size: 0.813rem;
+        line-height: 1.125rem;
+        font-weight: 600;
+        @include tablet{
+            font-size: 0.875rem;
+            line-height: 1.375rem;
+        } 
+    }
+    &__text{
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        font-size: 0.813rem;
+        line-height: 1.125rem;
+        font-weight: 400;
+        @include tablet{
+            font-size: 0.875rem;
+            line-height: 1.375rem;
+        } 
+    }
+    &__button{
+        background-color: $bandsite-black;
+        color: $white;
+        border-radius: 0.25rem;
+        border: none;
+        width: 90%;
+        padding: 0.5rem;
+        &:hover{
+            background-color: $bandsite-dark-black;
+        }
+    }
+}

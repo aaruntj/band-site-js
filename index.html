@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/bio.css">
+    <script src="./scripts/index-page.js" defer></script>
+    <title>Band Site</title>
+</head>
+
+<body>
+    <header class="header">
+        <a class="header__logo" href="./index.html"><img  src="./assets/logos/Logo-bandsite.svg" alt="BANDSITE"></a>
+        <nav class="header__nav">
+            <ul class="header__navbar">
+                <li class="header__links-container header--active"><a class="header__links" href="./index.html">Biography</a></li>
+                <li class="header__links-container"><a class="header__links" href="./pages/shows.html">Shows</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2 class="hero__title">The Bees Knees</h2>
+    </section>
+
+    <section class="about">
+        <h2 class="about__title">About the Musicians</h2>
+        <img class="about__image" src="./assets/images/band.jpg" alt="hero image">
+        <h3 class="about__subheader">“We push each other to be the best. It’s not uncommon
+            for one of us to say ‘this needs to be better, back to the drawing board’”</h3>
+        <p class="about__subheader">- Bryan Teddy, lead vocalist of The Bees Knees</p>
+        <h4 class="about__subheader">The Bees Knees</h4>
+        <section class="about__body-container">
+            <p class="about__body">The Bees Knees is a pop rock band originating from San Francisco, California. 
+                The band consists of lead vocalist Bryan Teddy, guitarist Mack Tolkens, 
+                guitarist Andrew Green, bassist Kent Zulkee and drummer Freddie Fischer. 
+                The band achieved its first commercial success as an unsigned act, 
+                drawing attention from manager Cam Adams. Having worked with other popular 
+                acts (The Elephant In The Room, One Trick Pony, The Cat’s Meow), Adams was 
+                confident the band could succeed even further, pushing them to sign with 
+                Magenta Records.</p>
+
+            <p class="about__body">From there, the band has soared, gaining international recognition and 
+                ranking in the top 10 on the Poster Charts. New fans immediately fell in 
+                love with the band’s original and organic attitude, solidifying their 
+                place as one of the hottest and fastest up and coming acts of this century. 
+                Fans affectionately refer to themselves as “The Hive” and are drawn to 
+                their candid and authentic performances on stage. Looking forward to 
+                touring in the future, The Bees Knees are currently recording their 
+                second studio album, looking to be released in late 2021.</p>
+        </section>
+    </section>
+
+    <section class="photo-gallery">
+        <h2 class="photo-gallery__title">Photo Gallery</h2>
+        <section class="photo-gallery__photos">
+            <img class="photo-gallery__photo" src="./assets/images/Photo-gallery-1.jpg" alt="Concerts 1">
+            <img class="photo-gallery__photo" src="./assets/images/Photo-gallery-2.jpg" alt="Concerts 2">
+            <img class="photo-gallery__photo" src="./assets/images/Photo-gallery-3.jpg" alt="Concerts 3">
+            <img class="photo-gallery__photo" src="./assets/images/Photo-gallery-4.jpg" alt="Concerts 4">
+            <img class="photo-gallery__photo" src="./assets/images/Photo-gallery-5.jpg" alt="Concerts 5">
+            <img class="photo-gallery__photo" src="./assets/images/Photo-gallery-6.jpg" alt="Concerts 6">
+            <img class="photo-gallery__photo" src="./assets/images/Photo-gallery-7.jpg" alt="Concerts 7">
+            <img class="photo-gallery__photo" src="./assets/images/Photo-gallery-8.jpg" alt="Concerts 8">
+            <img class="photo-gallery__photo" src="./assets/images/Photo-gallery-9.jpg" alt="Concerts 9">
+        </section>
+    </section>
+
+    <section class="comments">
+        <h2>Join the Conversation</h2>
+            <form class="form" id="user">
+                <section class="form__avatar-container">
+                    <img class="form__avatar" src="./assets/images/Mohan-muruge.jpg" alt="User Avatar">
+                </section>
+                <section class="form__input-container">
+                    <label for="form__name">NAME</label>
+                    <input type="text" id="form__name" name="formName" placeholder="Enter your name">
+                    <label for="form__comment">COMMENT</label>
+                    <input type="text" id="form__name" name="formComment" placeholder="Enter your comment">
+                    <button type="submit">Comment</button>
+                </section>
+            </form>
+            <section class="comments__container">
+                <!-- <section class="comments__card">
+                    <section class="comments__avatar-container">
+                        <img class="comments__avatar" src="./assets/images/grey-avatar.png" alt="Comment Avatar">
+                    </section>
+                    <section class="comments__text-container">
+                        <section class="comments__name-date-container">
+                            <p class="comments__name">Connor Walton</p>
+                            <p class="comments__date">02/17/2021</p>
+                        </section>
+                        <p class="comments__comment">This is art. This is inexplicable magic expressed in the purest way, everything that makes up this majestic work deserves reverence. Let us appreciate this for what it is and what it contains.</p>
+                    </section>
+                </section> -->
+            </section>
+    </section>
+
+    <footer class="footer">
+        <section class="footer__top">
+            <h2 class="footer__title">Get in Touch</h2>
+            <section>
+                <a href="https://www.instagram.com"><img class="footer__icon" src="./assets/icons/SVG/Icon-instagram.svg" alt="Instagram"></a>
+                <a href="https://www.facebook.com"><img class="footer__icon" src="./assets/icons/SVG/Icon-facebook.svg" alt="Facebook"></a>
+                <a href="https://www.twitter.com"><img class="footer__icon" src="./assets/icons/SVG/Icon-twitter.svg" alt="Twitter"></a>
+            </section>
+        </section>
+
+        <section class="footer__contacts">
+            <section class="footer__contact">
+                <section class="footer__spacing">
+                    <p class="footer__subheader">Cam Adams</p>
+                    <p class="footer__subheader">The Bees Knees Management</p>
+                </section>
+                <section class="footer__spacing">
+                    <p class="footer__text">503 Broadway Penthouse,</p>
+                    <p class="footer__text">New York, NY 10012, USA</p>
+                </section>
+                <a class="footer__text--link" href="mailto:info@thebeesknees.com">info@thebeesknees.com</a>
+            </section>
+
+            <section class="footer__contact">
+                <section class="footer__spacing">
+                <p class="footer__subheader">Pearl Gregg</p>
+                <p class="footer__subheader">Limitless Artist Group</p>
+                </section>
+
+                <section class="footer__spacing">
+                <p class="footer__text">Booking Agent for</p>
+                <p class="footer__text">US / South America / Japan</p>
+                </section>
+
+                <a class="footer__text--link" href="mailto:pearl.gregg@limitlessag.com">pearl.gregg@limitlessag.com</a>
+            </section>
+
+            <section class="footer__contact">
+                <section class="footer__spacing">
+                    <p class="footer__subheader">Carson Whyte</p>
+                    <p class="footer__subheader">ARCH Entertainment</p>
+                </section>
+
+                <section class="footer__spacing">
+                    <p class="footer__text">Booking Agent for</p>
+                    <p class="footer__text">UK / EU / AU</p>
+                </section>
+
+                <a class="footer__text--link" href="mailto:cwhyte@archentertainment.com">cwhyte@archentertainment.com</a>
+            </section>
+
+        </section>
+
+        <section class="footer__spacing">
+            <a href="./index.html"><img class="" src="./assets/logos/Logo-bandsite.svg" alt="BANDSITE"></a>
+        </section>
+
+        <section class="footer__copyright-container">
+            <p>Copyright The Bees Knees © 2021 All Rights Reserved</p>
+        </section>
+        
+    </footer>
+</body>
+</html>
